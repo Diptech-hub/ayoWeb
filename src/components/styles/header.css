@@ -1,0 +1,134 @@
+h5 {
+  margin-top: 33px;
+  text-align: center;
+  color: var(--Pry-colour, #ffd600);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.6px;
+}
+
+/* .nav {
+  color: #ffffff;
+  width: 446px;
+  height: 49.872px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 1.425px solid #fff;
+  background: linear-gradient(
+    126deg,
+    rgba(255, 255, 255, 0.15) 1.36%,
+    rgba(255, 255, 255, 0.09) 100%
+  );
+  box-shadow: 0px 4px 20px 0px rgba(255, 214, 0, 0.07);
+  backdrop-filter: blur(5.343450546264648px);
+}
+
+.navcontent {
+  display: flex;
+  width: 297.048px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.navcontent > h6 {
+  color: #fff;
+  font-family: Cabinet Grotesk;
+  font-size: 14.249px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+} */
+
+.main{
+margin-left: 100px;
+margin-top: 50px;
+}
+
+.ajayi{
+  display: flex;
+color: var(--Pry-colour, #FFD600);
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -6.6px;
+margin-left: 80px;
+margin-top: 10px;
+margin-bottom: 0;
+}
+
+.ajayi > img{
+  margin-top: 32px;
+  margin-left: 5px;
+  width: 55px;
+height: 68px;
+}
+
+.product {
+  display: flex;
+  padding-left: 240px;
+  margin-top: -32px;
+}
+
+.product > h5 {
+  color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.65px;
+margin-top: 62px;
+margin-right: 10px;
+}
+
+.product > p {
+  color: var(--WHITE, #FFF);
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: -6.6px;
+background-color: transparent;
+z-index: 1;
+}
+
+.web{
+  display: flex;
+  padding-left: 160px;
+  margin-top: -32px;
+}
+
+.web > p{
+  color: var(--WHITE, #FFF);
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: -6.6px;
+}
+
+.web > h5 {
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.65px;
+  margin-top: 64px;
+  margin-left: 5px; 
+}
+
+.bimg{
+  position: absolute;
+  width: 215px;
+height: 407px;
+top: 130px;
+left: 1020px;
+}
+
+.bodyfoot{
+  padding-left: 80px;
+  margin-top: 150px;
+}
