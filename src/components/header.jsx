@@ -5,11 +5,9 @@ function Header() {
     <div>
       <h5>AJAYI AYOBAMI</h5>
       <div className="nav">
-        <div className="navcontent">
-          <h6>WORK</h6>
-          <h6>ABOUT</h6>
-          <h6>BLOG</h6>
-        </div>
+        <h6>WORK</h6>
+        <h6>ABOUT</h6>
+        <h6>BLOG</h6>
       </div>
       <div className="main">
         <img className="bimg" src="/imga2.png" alt="my-image" />
@@ -26,8 +24,8 @@ function Header() {
           <h5>Based in Nigeria</h5>
         </div>
         <div className="bodyfoot">
-        <button>Scrool</button>
-        <button className="cv">Download CV</button>
+          <h6>SCROLL TO DISCOVER</h6>
+          <h6 className="cv">Download CV <img src="/Group 37079.png" /> </h6>
         </div>
       </div>
     </div>
