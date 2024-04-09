@@ -1,0 +1,31 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.card img {
+    width: 430px;
+height: 218px;
+gap: 0px;
+border-radius: 10px 0px 0px 0px;
+}
+
+.card img:first-child{
+    background: #3BC096;
+}
+
+
+.card a {
+font-size: 40px;
+font-weight: bold;
+line-height: 39.2px;
+letter-spacing: -0.02em;
+text-align: left;
+text-decoration: none;
+color: white;
+width: 430px;
+height: 158px;
+top: 2901px;
+left: 80px;
+}

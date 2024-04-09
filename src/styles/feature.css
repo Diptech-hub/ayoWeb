@@ -1,0 +1,38 @@
+.top {
+    margin-top: -50px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.feature-list {
+font-size: 12px;
+font-weight: normal;
+line-height: 31px;
+text-align: left;
+color: #ffd600;
+}
+
+.feature-content {
+    color: white;
+    width: 660px;
+height: 250px;
+top: 2060px;
+left: 699px;
+font-size: 12px;
+font-weight: normal;
+line-height: 24.8px;
+text-align: left;
+margin-left: 300px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+

@@ -1,3 +1,7 @@
+.top {
+    margin-top: 100px;
+}
+
 .top-experience {
   display: flex;
   flex-direction: row;

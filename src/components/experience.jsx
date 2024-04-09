@@ -1,15 +1,15 @@
-import "./styles/experience.css";
+import "../styles/experience.css"
 
 function Experience() {
   return (
-    <div>
+    <div className="top">
       <div className="top-experience">
         <div className="experience1">
           <p>
             I CREATE <br />
             <span>EXPERIENCE</span>
           </p>
-          <img src="/img3.png" alt="my-image" />
+          <img src="/assets/img3.png" alt="my-image" />
         </div>
         <div className="experience2">
           <p>
@@ -26,13 +26,13 @@ function Experience() {
       </div>
       <div className="experience3">
         <a href="#work">
-          <img src="/Group 37079.png" /> LINKEDIN
+          <img src="/assets/Group 37079.png" /> LINKEDIN
         </a>
         <a href="#work">
-          <img src="/Group 37079.png" /> TWITTER
+          <img src="/assets/Group 37079.png" /> TWITTER
         </a>
         <a href="#work">
-          <img src="/Group 37079.png" /> BEHANCE
+          <img src="/assets/Group 37079.png" /> BEHANCE
         </a>
       </div>
     </div>

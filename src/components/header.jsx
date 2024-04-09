@@ -1,4 +1,4 @@
-import "./styles/header.css";
+import "../styles/header.css"
 
 function Header() {
   return (
@@ -10,10 +10,10 @@ function Header() {
         <h6>BLOG</h6>
       </div>
       <div className="main">
-        <img className="bimg" src="/imga2.png" alt="my-image" />
+        <img className="bimg" src="/assets/imga2.png" alt="my-image" />
         <div className="ajayi">
           <p>AJAYI AYOBAMI</p>
-          <img src="/image (2).png" alt="my-image" />
+          <img src="/assets/image (2).png" alt="my-image" />
         </div>
         <div className="product">
           <h5>certified</h5>
@@ -25,7 +25,7 @@ function Header() {
         </div>
         <div className="bodyfoot">
           <h6>SCROLL TO DISCOVER</h6>
-          <h6 className="cv">Download CV <img src="/Group 37079.png" /> </h6>
+          <h6 className="cv">Download CV <img src="/assets/Group 37079.png" /> </h6>
         </div>
       </div>
     </div>

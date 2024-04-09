@@ -2,6 +2,8 @@ import './App.css'
 
 import Header from './components/header'
 import Experience from './components/experience'
+import Feature from './components/feature'
+import Approach from  './components/approach'
 
 function App() {
 
@@ -9,6 +11,8 @@ function App() {
     <div>
     <Header />
     <Experience />
+    <Feature />
+    <Approach />
     </div>
   )
 }
