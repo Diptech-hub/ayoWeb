@@ -5,6 +5,7 @@ import Experience from "./components/experience";
 import Feature from "./components/feature";
 import Approach from "./components/approach";
 import Chat from "./components/chat";
+import Footer from "./components/footer"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Feature />
       <Approach />
       <Chat />
+      <Footer />
     </div>
   );
 }
