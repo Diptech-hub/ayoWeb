@@ -31,11 +31,11 @@ function Feature() {
       <div className="cards">
         <div className="card">
           <Card imgSrc="/assets/img5.png" text="ROAMHOME CARETAKER APP" />
-          <Card imgSrc="/assets/img8.png" text="ROAMHOME CARETAKER APP" />
+          <Card imgSrc="/assets/img8.png" text="DELLRY DELIVERY APP" />
         </div>
         <div className="card">
-          <Card imgSrc="/assets/img6.png" text="ROAMHOME CARETAKER APP" />
-          <Card imgSrc="/assets/img9.png" text="ROAMHOME CARETAKER APP" />
+          <Card imgSrc="/assets/img6.png" text="IKOOK CHEF BOOKING APP" />
+          <Card imgSrc="/assets/img9.png" text="GROCERY MARKETPLACE" />
         </div>
       </div>
     </div>

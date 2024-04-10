@@ -1,0 +1,37 @@
+.chat {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.chat p {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: -0.055em;
+}
+
+.chat h1 {
+  color: #ffd600;
+  width: 1098px;
+  font-size: 150px;
+  font-weight: bolder;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.chat button {
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: -0.055em;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: auto;
+}

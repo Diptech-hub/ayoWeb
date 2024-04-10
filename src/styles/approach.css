@@ -1,0 +1,30 @@
+.approach-body {
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.approach1 img {
+  width: 250px;
+  height: 325.52px;
+  top: 4358px;
+  left: 80px;
+  margin-bottom: 25px;
+}
+
+.approach1 p {
+  color: white;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: justify;
+  text-align: left;
+  width: 250px;
+}
+
+.approach1 .process {
+  color: #ffd600;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 31px;
+  text-align: left;
+}

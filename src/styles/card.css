@@ -5,8 +5,8 @@
 }
 
 .card img {
-    width: 430px;
-height: 218px;
+    width: 400px;
+height: 188px;
 gap: 0px;
 border-radius: 10px 0px 0px 0px;
 }
@@ -24,7 +24,7 @@ letter-spacing: -0.02em;
 text-align: left;
 text-decoration: none;
 color: white;
-width: 430px;
+width: 400px;
 height: 158px;
 top: 2901px;
 left: 80px;
