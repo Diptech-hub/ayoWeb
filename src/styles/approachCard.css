@@ -23,3 +23,30 @@
   text-align: left;
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .approachCard {
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    width: 357px;
+    margin-left: 0;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .approachCard span {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 31px;
+    text-align: left;
+  }
+
+  .approachCard p {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 31px;
+    text-align: left;
+    width: auto;
+  }
+}

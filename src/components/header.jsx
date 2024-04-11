@@ -4,6 +4,7 @@ function Header() {
   return (
     <div>
       <h5>AJAYI AYOBAMI</h5>
+      <img className="mblimg" src="/assets/mbile img.png" alt="my-img" />
       <div className="nav">
         <h6>WORK</h6>
         <h6>ABOUT</h6>
@@ -26,6 +27,10 @@ function Header() {
         <div className="bodyfoot">
           <h6>SCROLL TO DISCOVER</h6>
           <h6 className="cv">Download CV <img src="/assets/Group 37079.png" /> </h6>
+        </div>
+        <div className="bodyfootmbl">
+          <h6 className="cv">Download CV <img src="/assets/Group 37079.png" /> </h6>
+          <h6>SCROLL TO DISCOVER</h6>
         </div>
       </div>
     </div>

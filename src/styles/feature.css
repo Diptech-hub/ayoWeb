@@ -35,4 +35,37 @@ margin-left: 300px;
     flex-direction: row;
 }
 
+@media (max-width: 768px){
+    .top{
+        margin-top: 160px;
+    }
 
+    .feature {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    .feature-list{
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+
+    .feature-content{
+        width: auto;
+    height: auto;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 24.8px;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    }
+
+    .cards {
+        /* flex-direction: column; */
+        display: block;
+        margin: auto;
+    }
+}

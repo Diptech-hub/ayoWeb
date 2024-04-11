@@ -22,6 +22,11 @@ function Footer() {
         <a href="#work">
           <img src="/assets/top.png" /> BACK TO TOP
         </a>
+        <div className="footer-media">
+          <a href="">LI .</a>
+          <a href="">TW .</a>
+          <a href="">BE</a>
+        </div>
       </div>
     </div>
   );

@@ -37,8 +37,40 @@ a {
   margin-right: 20px;
 }
 
-.footer-link img, img{
-    width: 20px;
-height: 20px;
-border: 1px 0px 0px 0px;
+.footer-link img,
+img {
+  width: 20px;
+  height: 20px;
+  border: 1px 0px 0px 0px;
 }
+
+.footer-media {
+  display: none;
+}
+
+/* @media (max-width: 768px) {
+  .footer-body p {
+    width: 157px;
+    height: 16px;
+    left: 16px;
+    font-size: 10px;
+    font-weight: normal;
+    letter-spacing: -0.015em;
+    text-align: left;
+    margin-left: 25px;
+  }
+
+  .footer-link, .footer-body a, .footer-body img {
+    display: none;
+  }
+
+  .footer-media {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 157px;
+height: 16px;
+
+  }
+
+} */

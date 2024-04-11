@@ -28,3 +28,23 @@
   line-height: 31px;
   text-align: left;
 }
+
+@media (max-width: 768px) {
+  .approach-body {
+    margin-top: 50px;
+    margin-left: 20px;
+    flex-direction: column;
+  }
+
+  .approach1 img {
+    width: 357px;
+    height: 281.89px;
+  }
+
+  .approach1 p {
+    color: white;
+  font-size: 15px;
+  font-weight: normal;
+  width: 357px;
+  }
+}
