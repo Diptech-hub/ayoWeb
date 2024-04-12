@@ -36,6 +36,13 @@
     flex-direction: column;
   }
 
+  .approach1 .process {
+    color: #ffd600;
+  font-size: 15px;
+  font-weight: bold;
+  width: 357px;
+  }
+
   .approach1 img {
     width: 357px;
     height: 281.89px;
@@ -46,5 +53,7 @@
   font-size: 15px;
   font-weight: normal;
   width: 357px;
+  line-height: 31px;
   }
+
 }

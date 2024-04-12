@@ -1,4 +1,6 @@
 import "../styles/experience.css"
+import img3 from "../assets/img3.png"
+import Group37079 from "../assets/Group37079.png"
 
 function Experience() {
   return (
@@ -9,7 +11,7 @@ function Experience() {
             I CREATE <br />
             <span>EXPERIENCE</span>
           </p>
-          <img src="/assets/img3.png" alt="my-image" />
+          <img src={img3} alt="my-image" />
         </div>
         <div className="experience2">
           <p>
@@ -26,13 +28,13 @@ function Experience() {
       </div>
       <div className="experience3">
         <a href="#work">
-          <img src="/assets/Group 37079.png" /> LINKEDIN
+          <img src={Group37079} /> LINKEDIN
         </a>
         <a href="#work">
-          <img src="/assets/Group 37079.png" /> TWITTER
+          <img src={Group37079} /> TWITTER
         </a>
         <a href="#work">
-          <img src="/assets/Group 37079.png" /> BEHANCE
+          <img src={Group37079} /> BEHANCE
         </a>
       </div>
     </div>

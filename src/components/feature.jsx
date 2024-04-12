@@ -1,6 +1,10 @@
 import CustomText from "./customHeader";
 import Card from "./card";
 import "../styles/feature.css";
+import img5 from "../assets/img5.png"
+import img8 from "../assets/img8.png"
+import img6 from "../assets/img8.png"
+import img9 from "../assets/img8.png"
 
 function Feature() {
   return (
@@ -30,12 +34,12 @@ function Feature() {
       </div>
       <div className="cards">
         <div className="card">
-          <Card imgSrc="/assets/img5.png" text="ROAMHOME CARETAKER APP" />
-          <Card imgSrc="/assets/img8.png" text="DELLRY DELIVERY APP" />
+          <Card imgSrc={img5} text="ROAMHOME CARETAKER APP" />
+          <Card imgSrc={img8} text="DELLRY DELIVERY APP" />
         </div>
         <div className="card">
-          <Card imgSrc="/assets/img6.png" text="IKOOK CHEF BOOKING APP" />
-          <Card imgSrc="/assets/img9.png" text="GROCERY MARKETPLACE" />
+          <Card imgSrc={img6} text="IKOOK CHEF BOOKING APP" />
+          <Card imgSrc={img9} text="GROCERY MARKETPLACE" />
         </div>
       </div>
     </div>

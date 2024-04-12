@@ -18,8 +18,8 @@ h5 {
   color: #fff;
   justify-content: space-evenly;
   width: 350px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-top: 20px;
   margin-left: 35%;
   font-size: smaller;
@@ -32,6 +32,10 @@ h5 {
   );
   box-shadow: 0px 4px 20px 0px rgba(255, 214, 0, 0.07);
   backdrop-filter: blur(5.343450546264648px);
+}
+
+.nav h6{
+  background: inherit;
 }
 
 .main {
@@ -157,7 +161,7 @@ h5 {
 @media (max-width: 768px) {
   h5 {
     font-size: 20px;
-    font-weight: normal;
+    font-weight: bold;
     letter-spacing: -0.08em;
     text-align: left;
     margin: 20px;
@@ -170,7 +174,7 @@ h5 {
   .main,
   .product,
   .web,
-  .bodyfoot {
+  .bodyfoot, .ajayi {
     margin: 0;
     padding: 0;
   }
@@ -192,26 +196,28 @@ h5 {
   }
 
   .ajayi p {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
     letter-spacing: -0.055em;
-    text-align: left;
+    text-align: center;
   }
 
   .product p {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
     letter-spacing: -0.055em;
-    text-align: left;
+    text-align: center;
     color: #fff;
+    /* margin-left: 20px; */
   }
 
   .web p {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
     letter-spacing: -0.055em;
-    text-align: left;
+    text-align: center;
     color: #fff;
+    margin-left: auto;
   }
 
   .bodyfootmbl {

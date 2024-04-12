@@ -36,3 +36,26 @@
   margin: auto;
 }
 
+@media (max-width: 768px) {
+  .chat {
+    margin: 20px;
+    margin-bottom: 50px;
+  }
+
+  .chat p {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: -0.055em;
+  }
+
+  .chat h1 {
+    color: #ffd600;
+    width: auto;
+    font-size: 60px;
+    font-weight: bolder;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+}

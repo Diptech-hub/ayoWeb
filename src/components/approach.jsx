@@ -1,5 +1,6 @@
 import CustomText from "./customHeader";
 import ApproachCard from "./approachCard";
+import Rectangle6458 from "../assets/Rectangle6458.png"
 import "../styles/approach.css"
 
 function Approach() {
@@ -8,7 +9,7 @@ function Approach() {
       <CustomText text="MY APPROACH  MY APPROACH  MY APPROACH MY APPROACH" />
       <div className="approach-body">
         <div className="approach1">
-          <img src="/assets/Rectangle 6458.png" alt="me" />
+          <img src={Rectangle6458} alt="me" />
           <p className="process">Process</p>
           <p>
             Every project is different and takes work to accomplish objectives.

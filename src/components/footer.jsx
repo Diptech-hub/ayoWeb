@@ -1,4 +1,6 @@
 import "../styles/footer.css";
+import Group37079 from "../assets/Group37079.png"
+import top from "../assets/top.png"
 
 function Footer() {
   const currentDate = new Date().getFullYear();
@@ -10,17 +12,17 @@ function Footer() {
         <p>AJAYI AYOBAMI © {currentDate}</p>
         <div className="footer-link">
           <a href="#work">
-            <img src="/assets/Group 37079.png" /> LINKEDIN
+            <img src={Group37079} /> LINKEDIN
           </a>
           <a href="#work">
-            <img src="/assets/Group 37079.png" /> TWITTER
+            <img src={Group37079} /> TWITTER
           </a>
           <a href="#work">
-            <img src="/assets/Group 37079.png" /> BEHANCE
+            <img src={Group37079} /> BEHANCE
           </a>
         </div>
         <a href="#work">
-          <img src="/assets/top.png" /> BACK TO TOP
+          <img src={top} /> BACK TO TOP
         </a>
         <div className="footer-media">
           <a href="">LI .</a>
