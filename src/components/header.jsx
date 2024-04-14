@@ -24,6 +24,9 @@ function Header() {
           <a>Work</a>
           <a>About</a>
           <a>Blog</a>
+          <a className="close-button" onClick={toggleMenu}>
+            Close
+          </a>
         </div>
       )}
       <img className="mblimg" src={mbile} alt="my-img" />
