@@ -50,27 +50,41 @@ img {
 
 @media (max-width: 768px) {
   .footer-body p {
-    width: 157px;
-    height: 16px;
-    left: 16px;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: normal;
     letter-spacing: -0.015em;
     text-align: left;
-    margin-left: 25px;
+    /* margin-left: 25px; */
+    display: block;
+    margin: auto;
   }
 
-  .footer-link, .footer-body a, .footer-body img {
+  .footer-link,
+  .footer-body a,
+  .footer-body img {
     display: none;
   }
 
-  .footer-media {
+  .footer-body {
     display: flex;
     flex-direction: row;
+  }
+
+  .footer-media {
     color: white;
+    display: inline-flex;
+    margin-left: 40%;
+    margin-bottom: 10px;
   }
 
-
-
+  .footer-media a {
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: -0.015em;
   }
 
+  .footer-media a:hover {
+    color: #ffd600;
+    font-size: 15px;
+  }
+}

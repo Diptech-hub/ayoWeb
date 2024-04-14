@@ -1,6 +1,6 @@
 import "../styles/footer.css";
-import Group37079 from "../assets/Group37079.png"
-import top from "../assets/top.png"
+import Group37079 from "../assets/Group37079.png";
+import top from "../assets/top.png";
 
 function Footer() {
   const currentDate = new Date().getFullYear();
@@ -24,12 +24,12 @@ function Footer() {
         <a href="#work">
           <img src={top} /> BACK TO TOP
         </a>
+      </div>
         <div className="footer-media">
           <a href="">LI .</a>
           <a href="">TW .</a>
           <a href="">BE</a>
         </div>
-      </div>
     </div>
   );
 }

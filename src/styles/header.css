@@ -34,7 +34,7 @@ h5 {
   backdrop-filter: blur(5.343450546264648px);
 }
 
-.nav h6{
+.nav h6 {
   background: inherit;
 }
 
@@ -154,7 +154,10 @@ h5 {
   padding-left: 5px;
 }
 
-.boodyfootmbl {
+.boodyfootmbl,
+.mobile-nav,
+.mobile-button,
+.background {
   display: none;
 }
 
@@ -165,6 +168,8 @@ h5 {
     letter-spacing: -0.08em;
     text-align: left;
     margin: 20px;
+    /* display: block;
+    position: sticky; */
   }
 
   .nav {
@@ -174,7 +179,8 @@ h5 {
   .main,
   .product,
   .web,
-  .bodyfoot, .ajayi {
+  .bodyfoot,
+  .ajayi {
     margin: 0;
     padding: 0;
   }
@@ -245,5 +251,37 @@ h5 {
     letter-spacing: -0.055em;
     color: white;
     margin-top: 25px;
+  }
+
+  .mobile-button {
+    display: block;
+    /* position: fixed; */
+    margin-top: -50px;
+    margin-left: 90%;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .mobile-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-nav a {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 22.32px;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .mobile-nav a:hover {
+    color: #ffd600;
+    font-size: 20px;
   }
 }
