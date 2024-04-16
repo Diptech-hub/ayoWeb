@@ -26,9 +26,9 @@ function Footer() {
         </a>
       </div>
       <div className="footer-media">
-        <a href="https://www.linkedin.com/in/ajayiayobami/">LI .</a>
-        <a href="https://twitter.com/Tumise100">TW .</a>
-        <a href="https://www.behance.net/tumise100">BE</a>
+        <a href="https://www.linkedin.com/in/ajayiayobami/" target="_blank" rel="noopener noreferrer">LI .</a>
+        <a href="https://twitter.com/Tumise100" target="_blank" rel="noopener noreferrer">TW .</a>
+        <a href="https://www.behance.net/tumise100" target="_blank" rel="noopener noreferrer">BE</a>
       </div>
     </div>
   );
