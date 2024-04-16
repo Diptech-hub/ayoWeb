@@ -51,14 +51,14 @@ function Header() {
         </div>
         <div className="bodyfoot">
           <h6>SCROLL TO DISCOVER</h6>
-          <h6 className="cv">
-            Download CV <img src={top} />{" "}
-          </h6>
+          <a href="https://docs.google.com/document/d/1Cj0Q4EMEA4dGfhMHGWalRup9xo3O-0FULIxQPlrW2h8/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="cv">
+            Download CV <img src={top} />
+          </a>
         </div>
         <div className="bodyfootmbl">
-          <h6 className="cv">
-            Download CV <img src={top} />{" "}
-          </h6>
+          <a href="https://docs.google.com/document/d/1Cj0Q4EMEA4dGfhMHGWalRup9xo3O-0FULIxQPlrW2h8/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="cv">
+            Download CV <img src={top} />
+          </a>
           <h6>SCROLL TO DISCOVER</h6>
         </div>
       </div>

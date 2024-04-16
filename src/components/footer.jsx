@@ -11,25 +11,25 @@ function Footer() {
       <div className="footer-body">
         <p>AJAYI AYOBAMI © {currentDate}</p>
         <div className="footer-link">
-          <a href="#work">
-            <img src={Group37079} /> LINKEDIN
+          <a href="https://www.linkedin.com/in/ajayiayobami/" target="_blank" rel="noopener noreferrer">
+            <img src={Group37079} alt="LinkedIn" /> LINKEDIN
           </a>
-          <a href="#work">
-            <img src={Group37079} /> TWITTER
+          <a href="https://twitter.com/Tumise100" target="_blank" rel="noopener noreferrer">
+            <img src={Group37079} alt="Twitter" /> TWITTER
           </a>
-          <a href="#work">
-            <img src={Group37079} /> BEHANCE
+          <a href="https://www.behance.net/tumise100" target="_blank" rel="noopener noreferrer">
+            <img src={Group37079} alt="Behance" /> BEHANCE
           </a>
         </div>
-        <a href="#work">
-          <img src={top} /> BACK TO TOP
+        <a href="/">
+          <img src={top} alt="Back to Top" /> BACK TO TOP
         </a>
       </div>
-        <div className="footer-media">
-          <a href="">LI .</a>
-          <a href="">TW .</a>
-          <a href="">BE</a>
-        </div>
+      <div className="footer-media">
+        <a href="https://www.linkedin.com/in/ajayiayobami/">LI .</a>
+        <a href="https://twitter.com/Tumise100">TW .</a>
+        <a href="https://www.behance.net/tumise100">BE</a>
+      </div>
     </div>
   );
 }

@@ -27,13 +27,13 @@ function Experience() {
         </div>
       </div>
       <div className="experience3">
-        <a href="#work">
+        <a href="https://www.linkedin.com/in/ajayiayobami/" target="_blank" rel="noopener noreferrer">
           <img src={Group37079} /> LINKEDIN
         </a>
-        <a href="#work">
+        <a href="https://twitter.com/Tumise100" target="_blank" rel="noopener noreferrer">
           <img src={Group37079} /> TWITTER
         </a>
-        <a href="#work">
+        <a href="https://www.behance.net/tumise100" target="_blank" rel="noopener noreferrer">
           <img src={Group37079} /> BEHANCE
         </a>
       </div>
