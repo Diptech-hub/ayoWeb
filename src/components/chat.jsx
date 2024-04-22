@@ -5,7 +5,7 @@ function Chat () {
         <div className="chat">
             <p>Ready for your next project?</p>
             <h1> LET'S CHAT</h1>
-            <button>corporatetunmise@gmail.com</button>
+            <button><a href="mailto:corporatetunmise@gmail.com" target="_blank" rel="noopener noreferrer">corporatetunmise@gmail.com</a></button>
         </div>
     )
 }

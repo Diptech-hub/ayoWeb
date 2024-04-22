@@ -3,8 +3,8 @@ import Card from "./card";
 import "../styles/feature.css";
 import img5 from "../assets/img5.png"
 import img8 from "../assets/img8.png"
-import img6 from "../assets/img8.png"
-import img9 from "../assets/img8.png"
+import img6 from "../assets/img6.png"
+import img9 from "../assets/img9.png"
 
 function Feature() {
   return (
@@ -34,12 +34,12 @@ function Feature() {
       </div>
       <div className="cards">
         <div className="card">
-          <Card imgSrc={img5} text="ROAMHOME CARETAKER APP" />
-          <Card imgSrc={img8} text="DELLRY DELIVERY APP" />
+          <Card className="card1" imgSrc={img5} text="ROAMHOME CARETAKER APP" />
+          <Card className="card3" imgSrc={img8} text="DELLRY DELIVERY APP" />
         </div>
         <div className="card">
-          <Card imgSrc={img6} text="IKOOK CHEF BOOKING APP" />
-          <Card imgSrc={img9} text="GROCERY MARKETPLACE" />
+          <Card className="card2" imgSrc={img6} text="IKOOK CHEF BOOKING APP" />
+          <Card className="card4" imgSrc={img9} text="GROCERY MARKETPLACE" />
         </div>
       </div>
     </div>

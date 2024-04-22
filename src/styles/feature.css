@@ -35,7 +35,15 @@
   flex-direction: row;
 }
 
-@media (max-width: 768px) {
+.card1 > img {
+    background-color: #3bc096;
+}
+
+.card2 > img {
+    background-color: #ffd200;
+}
+
+@media (max-width: 1024px) {
   .top {
     margin-top: 160px;
   }

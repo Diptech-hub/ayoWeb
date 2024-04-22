@@ -11,9 +11,9 @@
   border-radius: 10px 10px 10px 10px;
 }
 
-.card img:first-child {
+/* .card img:first-child {
   background: #3bc096;
-}
+} */
 
 .card a {
   font-size: 40px;
@@ -29,7 +29,7 @@
   left: 80px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .card {
     /* margin-left: 20px;
     margin-right: 20px; */

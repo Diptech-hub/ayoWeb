@@ -29,7 +29,7 @@
   text-align: left;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .approach-body {
     margin-top: 50px;
     margin-left: 20px;

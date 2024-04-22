@@ -34,8 +34,9 @@ h5 {
   backdrop-filter: blur(5.343450546264648px);
 }
 
-.nav h6 {
-  background: inherit;
+.nav a {
+  background: none;
+  text-decoration: none;
 }
 
 .main {
@@ -59,8 +60,8 @@ h5 {
 .ajayi > img {
   margin-top: 32px;
   margin-left: 5px;
-  width: 55px;
-  height: 68px;
+  width: 43px;
+  height: 56px;
 }
 
 .product {
@@ -161,7 +162,7 @@ h5 {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   h5 {
     font-size: 20px;
     font-weight: bold;

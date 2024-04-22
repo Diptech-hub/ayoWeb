@@ -31,9 +31,9 @@ function Header() {
       )}
       <img className="mblimg" src={mbile} alt="my-img" />
       <div className="nav">
-        <h6>WORK</h6>
-        <h6>ABOUT</h6>
-        <h6>BLOG</h6>
+        <a href="">WORK</a>
+        <a href="">ABOUT</a>
+        <a href="">BLOG</a>
       </div>
       <div className="main">
         <img className="bimg" src={imga2} alt="my-image" />
