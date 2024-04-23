@@ -21,7 +21,7 @@
   font-weight: normal;
   line-height: 22.32px;
   text-align: left;
-  width: 100%;
+  width: auto;
 }
 
 @media (max-width: 1024px) {
@@ -29,8 +29,8 @@
     color: white;
     font-size: 15px;
     font-weight: normal;
-    width: 357px;
-    margin-left: 0;
+    width: 100%;
+    margin-left: 20px;
     margin-bottom: 0;
     flex-direction: column;
     margin-top: 20px;
@@ -42,13 +42,15 @@
     line-height: 31px;
     text-align: left;
     margin-left: 0;
+    width: auto;
   }
 
   .approachCard p {
+    color: white;
     font-size: 15px;
     font-weight: normal;
-    line-height: 31px;
-    text-align: left;
     width: auto;
+    height: auto;
+    line-height: 31px;
   }
 }

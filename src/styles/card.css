@@ -44,7 +44,8 @@
   .card a {
     font-size: 30px;
     width: 307.38px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    margin: auto;
     /* height: 218.03px; */
   }
 }

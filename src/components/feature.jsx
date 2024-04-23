@@ -34,12 +34,12 @@ function Feature() {
       </div>
       <div className="cards">
         <div className="card">
-          <Card className="card1" imgSrc={img5} text="ROAMHOME CARETAKER APP" />
-          <Card className="card3" imgSrc={img8} text="DELLRY DELIVERY APP" />
+          <Card className="card1" imgSrc={img5} text="ROAMHOME CARETAKER APP"  href="https://www.behance.net/gallery/167273651/Roamhome-Home-cleaning-made-easy-(Case-Study)" target="_blank" rel="noopener noreferrer"/>
+          <Card className="card3" imgSrc={img8} text="DELLRY DELIVERY APP"  href=""/>
         </div>
         <div className="card">
-          <Card className="card2" imgSrc={img6} text="IKOOK CHEF BOOKING APP" />
-          <Card className="card4" imgSrc={img9} text="GROCERY MARKETPLACE" />
+          <Card className="card2" imgSrc={img6} text="IKOOK CHEF BOOKING APP" href="https://www.behance.net/gallery/149113363/Ikook-Brand-Identity" target="_blank" rel="noopener noreferrer"/>
+          <Card className="card4" imgSrc={img9} text="GROCERY MARKETPLACE" href="https://www.behance.net/gallery/173516523/GROBUY-Groceries-ordering-in-one-app-(Case-Study)" target="_blank" rel="noopener noreferrer"/>
         </div>
       </div>
     </div>

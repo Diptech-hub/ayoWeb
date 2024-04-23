@@ -177,7 +177,11 @@ h5 {
     display: none;
   }
 
-  .main,
+  .main {
+    margin: auto;
+    width: auto;
+  }
+
   .product,
   .web,
   .bodyfoot,
@@ -188,10 +192,11 @@ h5 {
 
   .mblimg {
     display: block;
-    width: 360px;
-    height: 329px;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: auto;
+    height: auto;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    margin: auto;
   }
 
   .bimg,
@@ -207,6 +212,8 @@ h5 {
     font-weight: bold;
     letter-spacing: -0.055em;
     text-align: center;
+    width: auto;
+    margin: auto;
   }
 
   .product p {
@@ -215,7 +222,7 @@ h5 {
     letter-spacing: -0.055em;
     text-align: center;
     color: #fff;
-    /* margin-left: 20px; */
+    margin: auto;
   }
 
   .web p {
@@ -224,7 +231,7 @@ h5 {
     letter-spacing: -0.055em;
     text-align: center;
     color: #fff;
-    margin-left: auto;
+    margin: auto;
   }
 
   .bodyfootmbl {
