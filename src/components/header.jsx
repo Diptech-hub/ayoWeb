@@ -22,9 +22,15 @@ function Header() {
       </button>
       {isMenuOpen && (
         <div className="mobile-nav">
-          <a href="/work">Work</a>
-          <a href="/about">About</a>
-          <a href="/blog">Blog</a>
+          <Link className="nav-link" to="/work">
+            Work
+          </Link>
+          <Link className="nav-link" to="/about">
+            About
+          </Link>
+          <Link className="nav-link" to="/blog">
+            Blog
+          </Link>
           <a className="close-button" onClick={toggleMenu}>
             Close
           </a>
