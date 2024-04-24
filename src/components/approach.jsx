@@ -19,7 +19,7 @@ function Approach() {
         </div>
         <div className="approach2">
           <ApproachCard
-            paragraph1="Understanding "
+            paragraph1="Understanding     "
             paragraph2="Before I design, I make an effort to study as much as I can. I support the Why before How strategy. Understanding the issue at hand entails conducting research, gathering data, and doing everything else I can to feel connected to the project."
           />
           <ApproachCard

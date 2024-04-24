@@ -61,8 +61,8 @@
     margin-left: 20px;
   }
 
-  /* .approach2 {
-    width: auto;
-    height: auto;
-  } */
+  .approach2 {
+    width: 80vw;
+    margin: auto;
+  }
 }
