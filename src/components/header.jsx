@@ -3,7 +3,7 @@ import "../styles/header.css";
 import mbile from "../assets/mbile.png";
 import imga2 from "../assets/imga2.png";
 import image2 from "../assets/image2.png";
-import top from "../assets/top.png";
+import Group37079 from "../assets/Group37079.png";
 import Vector from "../assets/Vector.png";
 import { Link } from "react-router-dom";
 
@@ -63,14 +63,22 @@ function Header() {
           <h5>Based in Nigeria</h5>
         </div>
         <div className="bodyfoot">
-          <h6>SCROLL TO DISCOVER</h6>
+          {/* <h6>SCROLL TO DISCOVER</h6> */}
+          <a
+            href="https://calendly.com/tumise100/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cv"
+          >
+            Let's talk<img src={Group37079} />
+          </a>
           <a
             href="https://docs.google.com/document/d/1Cj0Q4EMEA4dGfhMHGWalRup9xo3O-0FULIxQPlrW2h8/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="cv"
           >
-            Download CV <img src={top} />
+            Download CV <img src={Group37079} />
           </a>
         </div>
         <div className="bodyfootmbl">
@@ -80,9 +88,16 @@ function Header() {
             rel="noopener noreferrer"
             className="cv"
           >
-            Download CV <img src={top} />
+            Download CV <img src={Group37079} />
           </a>
-          <h6>SCROLL TO DISCOVER</h6>
+          <a
+            href="https://calendly.com/tumise100/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cv"
+          >
+            Let's talk <img src={Group37079} />
+          </a>
         </div>
       </div>
     </div>
