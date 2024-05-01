@@ -76,11 +76,11 @@
 
   .card-body p,
   .card-body h6 {
-    margin-left: 20px;
+    margin-left: 30px;
   }
 
   .card-body a {
-    margin-left: 20px;
+    margin-left: 30px;
     margin-bottom: 15px;
   }
 }
