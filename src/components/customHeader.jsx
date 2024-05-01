@@ -5,7 +5,11 @@ const CustomText = ({ text }) => {
   return (
     <div className="custom-text">
       <div className="horizontal-line"></div>
-      <p>{text}</p>
+      <div className="marquee">
+        <p>{text}</p>
+        <p>{text}</p>
+        <p>{text}</p>
+      </div>
       <div className="horizontal-line"></div>
     </div>
   );

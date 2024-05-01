@@ -15,7 +15,7 @@ import Group37079 from "../assets/Group37079.png";
 function Feature() {
   return (
     <div className="top">
-      <CustomText text="FEATURED WORKS FEATURED WORKS FEATURED WORKS" />
+      <CustomText text="FEATURED WORKS"/>
       <div className="feature">
         <div className="feature-list">
           <p>Useable</p>

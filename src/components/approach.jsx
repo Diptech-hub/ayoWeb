@@ -6,7 +6,7 @@ import "../styles/approach.css"
 function Approach() {
   return (
     <div>
-      <CustomText text="MY APPROACH  MY APPROACH  MY APPROACH MY APPROACH" />
+      <CustomText text="MY APPROACH" />
       <div className="approach-body">
         <div className="approach1">
           <img src={Rectangle6458} alt="me" />

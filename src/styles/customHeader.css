@@ -1,7 +1,10 @@
-.custom-text {
+
+
+/* .custom-text {
   position: relative;
   width: 100%;
-}
+  overflow: hidden;
+} */
 
 .horizontal-line {
   top: 0;
@@ -11,7 +14,31 @@
   background: #ffd600;
 }
 
-.custom-text p {
+.marquee {
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.marquee p{
+  color: #ffd600;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 65px;
+  letter-spacing: -2px;
+  white-space: nowrap;
+  padding: 0 40px;
+  animation: move-rtl 6000ms linear infinite; 
+}
+
+@keyframes move-rtl {
+  0% { transform: translateX(100vw); } 
+  100% { transform: translateX(-100%); }
+}
+
+
+
+/* .marquee p {
   color: #ffd600;
   font-size: 60px;
   font-weight: bold;
@@ -20,5 +47,11 @@
   text-align: left;
   letter-spacing: -4.6px;
   white-space: nowrap;
-  overflow: hidden;
-}
+  overflow: hidden; 
+  animation: left 10s linear infinite; 
+} */
+
+/* @keyframes left {
+  0% { transform: translateX(100vw); } 
+  100% { transform: translateX(-100%); }
+} */
