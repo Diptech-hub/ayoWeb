@@ -32,16 +32,16 @@
 
 .cards {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-left: 40px;
 }
 
 .card1 > img {
-    background-color: #3bc096;
+  background-color: #3bc096;
 }
 
 .card2 > img {
-    background-color: #ffd200;
+  background-color: #ffd200;
 }
 
 @media (max-width: 1024px) {
@@ -77,5 +77,9 @@
     /* flex-direction: column; */
     display: block;
     margin: auto;
+  }
+
+  .last {
+    margin-bottom: 40px;
   }
 }

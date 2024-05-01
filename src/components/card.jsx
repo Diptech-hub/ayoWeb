@@ -1,11 +1,20 @@
+/* eslint-disable react/prop-types */
 import "../styles/card.css";
-
-// eslint-disable-next-line react/prop-types
-const Card = ({ className = "", imgSrc, text, href, target, rel }) => {
+const Card = ({ className = "", imgSrc, imgSrc2, text, text2, href }) => {
   return (
     <div className={`card ${className}`}>
-      <img src={imgSrc} alt="Image" />
-      <a href={href} target={target} rel={rel}>{text}</a>
+      <div className="card">
+        <div className="card-img">
+          <img src={imgSrc} alt="Image" />
+        </div>
+        <div className="card-body">
+          <p>{text}</p>
+          <h6>{text2}</h6>
+          <a href={href} target="_blank" rel="noopener noreferrer">
+            Read Case Study <img src={imgSrc2} alt="Image" />
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
