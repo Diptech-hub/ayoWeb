@@ -55,6 +55,7 @@ h5 {
   margin-left: 40px;
   margin-top: 10px;
   margin-bottom: 0;
+  overflow: hidden;
 }
 
 .ajayi > img {

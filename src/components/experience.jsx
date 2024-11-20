@@ -7,13 +7,17 @@ function Experience() {
   return (
     <div className="top">
       <div className="top-experience">
-        <div className="experience1">
+        <motion.div 
+       initial={{ x: "-100%", opacity: 0 }} // Start off-screen to the left
+  whileInView={{ x: 0, opacity: 1 }} // Slide in and fade in while in view
+  transition={{ duration: 1, ease: "easeOut" }}
+        className="experience1">
           <p>
             I CREATE <br />
             <span>EXPERIENCE</span>
           </p>
           <img src={img3} alt="my-image" />
-        </div>
+        </motion.div>
         <div className="experience2">
           <p>
             A designer with technical experience who focuses on creating user

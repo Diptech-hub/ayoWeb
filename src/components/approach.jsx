@@ -2,6 +2,7 @@ import CustomText from "./customHeader";
 import ApproachCard from "./approachCard";
 import Rectangle6458 from "../assets/Rectangle6458.png";
 import "../styles/approach.css";
+import { motion } from "framer-motion";
 
 function Approach() {
   return (
@@ -9,11 +10,14 @@ function Approach() {
       <CustomText text="MY APPROACH" />
       <div className="approach-body">
         <div className="approach1">
-          <img src={Rectangle6458} alt="me" />
-          <p className="process"
-          >
-            Process
-          </p>
+          <motion.img
+            initial={{ opacity: 0, scale: 0.8 }} // Start smaller and invisible
+            whileInView={{ opacity: 1, scale: 1 }} // Fade in and scale up when in view
+            transition={{ duration: 0.8, ease: "easeOut" }} // Smooth animation
+            src={Rectangle6458}
+            alt="me"
+          />
+          <p className="process">Process</p>
           <p>
             Every project is different and takes work to accomplish objectives.
             All that is necessary is the establishment of a process and guiding

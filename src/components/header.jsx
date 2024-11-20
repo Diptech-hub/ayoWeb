@@ -50,17 +50,42 @@ function Header() {
         </Link>
       </div>
       <div className="main">
-        <img className="bimg" src={imga2} alt="my-image" />
+        <motion.img
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1, ease: "easeOut" }}
+          className="bimg"
+          src={imga2}
+          alt="my-image"
+        />
         <div className="ajayi">
-          <p>AJAYI AYOBAMI</p>
+          <motion.p
+            initial={{ x: "-100%", opacity: 0 }} // Start off-screen to the left
+            animate={{ x: 0, opacity: 1 }} // Slide in and fade in
+            transition={{ duration: 1, ease: "easeOut" }}
+          >
+            AJAYI AYOBAMI
+          </motion.p>
           <img src={image2} alt="my-image" />
         </div>
         <div className="product">
           <h5>certified</h5>
-          <p>PRODUCT DESIGNER</p>
+          <motion.p
+            initial={{ x: "100%", opacity: 0 }} // Start off-screen to the right
+            animate={{ x: 0, opacity: 1 }} // Slide in and fade in
+            transition={{ duration: 1, ease: "easeOut" }}
+          >
+            PRODUCT DESIGNER
+          </motion.p>
         </div>
         <div className="web">
-          <p>& WEB DESIGNER</p>
+          <motion.p
+            initial={{ y: "-100%", opacity: 0 }} // Start off-screen to the up
+            animate={{ y: 0, opacity: 1 }} // Slide in and fade in
+            transition={{ duration: 1, ease: "easeOut" }}
+          >
+            & WEB DESIGNER
+          </motion.p>
           <h5>Based in Nigeria</h5>
         </div>
         <div className="bodyfoot">
@@ -94,7 +119,7 @@ function Header() {
           </motion.a>
         </div>
         <div className="bodyfootmbl">
-        <motion.a
+          <motion.a
             whileHover={{
               scale: 1.2,
               transition: { duration: 1 },
