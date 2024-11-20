@@ -6,6 +6,7 @@ import image2 from "../assets/image2.png";
 import Group37079 from "../assets/Group37079.png";
 import Vector from "../assets/Vector.png";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -63,41 +64,64 @@ function Header() {
           <h5>Based in Nigeria</h5>
         </div>
         <div className="bodyfoot">
-          {/* <h6>SCROLL TO DISCOVER</h6> */}
-          <a
+          <motion.a
+            whileHover={{
+              scale: 1.2,
+              transition: { duration: 1 },
+            }}
+            whileTap={{ scale: 0.9 }}
             href="https://calendly.com/tumise100/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="cv"
           >
-            Let's talk<img src={Group37079} />
-          </a>
-          <a
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
+            Let's talk
+            <img src={Group37079} />
+          </motion.a>
+          <motion.a
+            whileHover={{
+              scale: 1.2,
+              transition: { duration: 1 },
+            }}
+            whileTap={{ scale: 0.9 }}
             href="https://docs.google.com/document/d/1Cj0Q4EMEA4dGfhMHGWalRup9xo3O-0FULIxQPlrW2h8/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="cv"
           >
             Download CV <img src={Group37079} />
-          </a>
+          </motion.a>
         </div>
         <div className="bodyfootmbl">
-          <a
+        <motion.a
+            whileHover={{
+              scale: 1.2,
+              transition: { duration: 1 },
+            }}
+            whileTap={{ scale: 0.9 }}
             href="https://docs.google.com/document/d/1Cj0Q4EMEA4dGfhMHGWalRup9xo3O-0FULIxQPlrW2h8/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="cv"
           >
             Download CV <img src={Group37079} />
-          </a>
-          <a
+          </motion.a>
+          <motion.a
+            whileHover={{
+              scale: 1.2,
+              transition: { duration: 1 },
+            }}
+            whileTap={{ scale: 0.9 }}
             href="https://calendly.com/tumise100/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="cv"
           >
-            Let's talk <img src={Group37079} />
-          </a>
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
+            Let's talk
+            <img src={Group37079} />
+          </motion.a>
         </div>
       </div>
     </div>

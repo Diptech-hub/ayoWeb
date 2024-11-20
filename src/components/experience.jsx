@@ -1,6 +1,7 @@
-import "../styles/experience.css"
-import img3 from "../assets/img3.png"
-import Group37079 from "../assets/Group37079.png"
+import "../styles/experience.css";
+import img3 from "../assets/img3.png";
+import Group37079 from "../assets/Group37079.png";
+import { motion } from "framer-motion";
 
 function Experience() {
   return (
@@ -27,15 +28,42 @@ function Experience() {
         </div>
       </div>
       <div className="experience3">
-        <a href="https://www.linkedin.com/in/ajayiayobami/" target="_blank" rel="noopener noreferrer">
+        <motion.a
+          whileHover={{
+            scale: 1.4,
+            transition: { duration: 0.5 },
+          }}
+          whileTap={{ scale: 0.9 }}
+          href="https://www.linkedin.com/in/ajayiayobami/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={Group37079} /> LINKEDIN
-        </a>
-        <a href="https://twitter.com/Tumise100" target="_blank" rel="noopener noreferrer">
+        </motion.a>
+        <motion.a
+          whileHover={{
+            scale: 1.4,
+            transition: { duration: 0.5 },
+          }}
+          whileTap={{ scale: 0.9 }}
+          href="https://twitter.com/Tumise100"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={Group37079} /> TWITTER
-        </a>
-        <a href="https://www.behance.net/tumise100" target="_blank" rel="noopener noreferrer">
+        </motion.a>
+        <motion.a
+          whileHover={{
+            scale: 1.4,
+            transition: { duration: 0.5 },
+          }}
+          whileTap={{ scale: 0.9 }}
+          href="https://www.behance.net/tumise100"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={Group37079} /> BEHANCE
-        </a>
+        </motion.a>
       </div>
     </div>
   );

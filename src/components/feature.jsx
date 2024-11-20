@@ -11,17 +11,50 @@ import card3 from "../assets/card3.png";
 import card4 from "../assets/card4.png";
 import card5 from "../assets/card5.png";
 import Group37079 from "../assets/Group37079.png";
+import { motion } from "framer-motion";
 
 function Feature() {
   return (
     <div className="top">
-      <CustomText text="FEATURED WORKS"/>
+      <CustomText text="FEATURED WORKS" />
       <div className="feature">
         <div className="feature-list">
-          <p>Useable</p>
-          <p>Equitable</p>
-          <p>Enjoyable</p>
-          <p>Useful</p>
+          <motion.p
+            whileHover={{
+              scale: 1.4,
+              transition: { duration: 0.5 },
+            }}
+            whileTap={{ scale: 0.9 }}
+          >
+            Useable
+          </motion.p>
+          <motion.p
+            whileHover={{
+              scale: 1.4,
+              transition: { duration: 0.5 },
+            }}
+            whileTap={{ scale: 0.9 }}
+          >
+            Equitable
+          </motion.p>
+          <motion.p
+            whileHover={{
+              scale: 1.4,
+              transition: { duration: 0.5 },
+            }}
+            whileTap={{ scale: 0.9 }}
+          >
+            Enjoyable
+          </motion.p>
+          <motion.p
+            whileHover={{
+              scale: 1.4,
+              transition: { duration: 0.5 },
+            }}
+            whileTap={{ scale: 0.9 }}
+          >
+            Useful
+          </motion.p>
         </div>
         <div className="feature-content">
           <p>
