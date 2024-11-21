@@ -22,7 +22,13 @@ function Header() {
         <img src={Vector} alt="mobile-toogle" />
       </button>
       {isMenuOpen && (
-        <div className="mobile-nav">
+        <motion.div
+          className="mobile-nav"
+          initial={{ x: "100%", opacity: 0 }} // Off-screen to the right, invisible
+          animate={{ x: 0, opacity: 1 }} // Slide in and become visible
+          exit={{ x: "100%", opacity: 0 }} // Slide out and fade out
+          transition={{ duration: 1, ease: "easeOut" }} // Smooth transition
+        >
           <Link className="nav-link" to="/work">
             Work
           </Link>
@@ -35,7 +41,7 @@ function Header() {
           <a className="close-button" onClick={toggleMenu}>
             Close
           </a>
-        </div>
+        </motion.div>
       )}
       <img className="mblimg" src={mbile} alt="my-img" />
       <div className="nav">
